@@ -1,0 +1,185 @@
+
+
+.well img{
+    border-radius: 5px;
+    transition: 0.5s all ease;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.search-title {
+    margin: 10px;
+    color: white;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+.movie-listing:hover {
+    /* opacity: 0.8; */
+}
+
+#goToMovie{
+    text-decoration: none;
+}
+
+.search-year {
+    color: #434343;
+    font-size: 0.9em;
+}
+
+
+/* movie search */
+
+.well.text-center {
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.no-listings{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.randomMovie{
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+    flex: 1;
+}
+
+a.no-link-color:link,a.no-link-color:visited,a.no-link-color:active,a.no-link-color:hover{
+    color:#fff;
+}
+
+.fa-star{
+    color: #f9ca24;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    width: 77%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #eb4d4b;
+    margin: 0 auto;
+    margin-bottom: 95px;
+    border-radius: 10px;
+}
+
+@media (max-width: 992px){
+    .middle {
+        position: absolute;
+        top: 50%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 45%;
+        width: 72%;
+        opacity: 0;
+        transition: 0.5s ease;
+        background-color: #eb4d4b;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .middle {
+        width: 75%;
+    }
+}
+
+@media (max-width: 500px){
+    .form-control{
+        width: 95% !important;
+    }
+}
+
+.well:hover img {
+    opacity: 0.2;
+}
+
+.well:hover .middle {
+    opacity: 1;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.9rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #686de0;
+    color: #fff;
+    border: 0px;
+    transition: all 0.6s ease;
+}
+
+.list-group-item:hover{
+    background-color: #4834d4;
+}
+
+@media (max-width: 500px){
+    .list-group{
+        margin: 15px;
+    }
+}
+
+input#searchText {
+    border-radius: 20px;
+    height: 40px;
+    width: 84%;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    outline: 0;
+    background-origin: content-box;
+}
+
+.floatCenter {
+    text-align: center;
+}
+
+
+#genBtn {
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    flex: 1;
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 230px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#genBtn:hover {
+    background-color: #eb4d4b;
+    border: 1.5px solid #eb4d4b;
+    color: #000;
+    transition: 0.5s all ease;
+}
+
+.extend {
+    margin-bottom: 500px;
+}
+
+.IMDBlogo {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.seaching {
+    color: black;
+}

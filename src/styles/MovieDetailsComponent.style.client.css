@@ -1,0 +1,36 @@
+.large {
+    font-size: 30px;
+}
+
+.extend {
+    margin-bottom: 130px;
+}
+
+.header {
+    text-align: center;
+}
+
+#genBtn {
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    flex: 1;
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 210px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#genBtn:hover {
+    background-color: #eb4d4b;
+    border: 1.5px solid #eb4d4b;
+    color: #000;
+    transition: 0.5s all ease;
+}
+
+.floatRight {
+    float: right;
+}
